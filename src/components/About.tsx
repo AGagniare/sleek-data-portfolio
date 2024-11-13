@@ -20,29 +20,26 @@ const About = () => {
             <p className="text-lg leading-relaxed mb-6">
               As an M2 student in the Data Analytics major at EFREI Paris, I'm currently looking for a 6-month internship in Data Science (March 2025 - Aug 2025). I'm passionate about taking on challenges and accomplishing complex tasks in a group setting.
             </p>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed mb-8">
               This internship will be an opportunity for me to deepen my learning while contributing my programming knowledge, analytical skills, team spirit, and dynamism to your organization.
             </p>
-            <div className="mt-6">
-              <h3 className="text-xl font-semibold mb-3">Languages</h3>
-              <ul className="list-disc list-inside space-y-1">
-                <li>French - C2</li>
-                <li>Polish - C1</li>
-                <li>English - 935 TOEIC</li>
-                <li>Chinese - A1</li>
-                <li>Spanish - A1</li>
-              </ul>
-            </div>
-            <div className="mt-6">
-              <h3 className="text-xl font-semibold mb-3">Soft Skills</h3>
-              <ul className="list-disc list-inside space-y-1">
-                <li>Autonomous</li>
-                <li>Curious</li>
-                <li>Team worker</li>
-                <li>Communication</li>
-                <li>Critical thinking skills</li>
-                <li>Analytical skills</li>
-              </ul>
+            <div className="grid grid-cols-2 gap-8">
+              <div className="space-y-3">
+                <p className="text-apple-blue font-medium">I speak:</p>
+                <p>French (C2)</p>
+                <p>Polish (C1)</p>
+                <p>English (935 TOEIC)</p>
+                <p>Chinese (A1)</p>
+                <p>Spanish (A1)</p>
+              </div>
+              <div className="space-y-3">
+                <p className="text-apple-blue font-medium">I am:</p>
+                <p>Autonomous</p>
+                <p>Curious</p>
+                <p>Team-oriented</p>
+                <p>Communicative</p>
+                <p>Analytical</p>
+              </div>
             </div>
           </div>
           <div>
