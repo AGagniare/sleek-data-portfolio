@@ -23,22 +23,20 @@ const About = () => {
             <p className="text-lg leading-relaxed mb-8">
               This internship will be an opportunity for me to deepen my learning while contributing my programming knowledge, analytical skills, team spirit, and dynamism to your organization.
             </p>
-            <div className="grid grid-cols-2 gap-8">
-              <div className="space-y-3">
-                <p className="text-apple-blue font-medium">I speak:</p>
-                <p>French (C2)</p>
-                <p>Polish (C1)</p>
-                <p>English (935 TOEIC)</p>
-                <p>Chinese (A1)</p>
-                <p>Spanish (A1)</p>
+            <div className="space-y-4">
+              <div className="flex flex-wrap gap-2">
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">French (C2)</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Polish (C1)</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">English (935 TOEIC)</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Chinese (A1)</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Spanish (A1)</span>
               </div>
-              <div className="space-y-3">
-                <p className="text-apple-blue font-medium">I am:</p>
-                <p>Autonomous</p>
-                <p>Curious</p>
-                <p>Team-oriented</p>
-                <p>Communicative</p>
-                <p>Analytical</p>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Autonomous</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Curious</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Team-oriented</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Communicative</span>
+                <span className="px-4 py-2 bg-white rounded-lg shadow-sm">Analytical</span>
               </div>
             </div>
           </div>
