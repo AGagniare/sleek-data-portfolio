@@ -9,9 +9,12 @@ const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center section-padding relative">
       <div className="animate-fade-in opacity-0" style={{ animationDelay: "0.2s" }}>
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          Data Engineer & <span className="gradient-text">Analytics Expert</span>
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2">
+          Arthur Gagniare
         </h1>
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
+          Data Engineer & <span className="gradient-text">Analytics Expert</span>
+        </h2>
         <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12">
           Transforming complex data challenges into elegant, scalable solutions
         </p>
