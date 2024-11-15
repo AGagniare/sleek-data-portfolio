@@ -7,6 +7,7 @@ const About = () => {
     { skill: "Data Visualization (matplotlib, seaborn)", percentage: 85, delay: 0.6 },
     { skill: "Machine Learning (sklearn)", percentage: 75, delay: 0.8 },
     { skill: "Jupyter", percentage: 80, delay: 1.0 },
+    { skill: "SQL", percentage: 70, delay: 1.2 },
   ];
 
   return (
